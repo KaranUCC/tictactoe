@@ -1,0 +1,78 @@
+.gameBoard
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 150px;
+    padding: 10px;
+    width: 50%;
+}
+
+.gameCell
+{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    font-size:30px;
+    text-align: center;
+
+}
+
+#gameMessage
+{
+    font-size:30px;
+    color:rgb(0, 0, 0);
+    padding: 30px;
+    font-weight:bolder;
+
+}
+
+body
+{
+    display: grid;
+    place-items:center;
+}
+
+#t1
+{
+    border-top:none;
+    border-left:none;
+}
+
+#t2
+{
+    border-top:none;
+   
+}
+
+#t3
+{
+    border-top:none;
+    border-right:none;
+}
+
+#m1
+{
+    border-left:none;
+}
+
+#m3
+{
+    border-right:none;
+}
+
+#b1
+{
+    border-bottom:none;
+    border-left:none;
+}
+
+#b2
+{
+    border-bottom:none;
+   
+}
+
+#b3
+{
+    border-bottom:none;
+    border-right:none;
+}
